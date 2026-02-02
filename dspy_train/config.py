@@ -7,7 +7,7 @@ class Config:
     
     # LLM Settings
     LM_MODEL_NAME = "openai/qwen/qwen3-32b"
-    LM_API_BASE = "http://192.168.1.55:1234/v1/"
+    LM_API_BASE = ""
     LM_API_KEY = "local"
     
     # Dataset Settings
@@ -17,3 +17,4 @@ class Config:
     # Optimization Settings
     MAX_BOOTSTRAPPED_DEMOS = 3
     MAX_LABELED_DEMOS = 4
+
